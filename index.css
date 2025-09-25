@@ -1,0 +1,157 @@
+body{
+    background-image: url(alberto-restifo-cFplR9ZGnAk-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman';
+    margin: 0;
+}
+.barnav{
+    background-color: rgb(36, 34, 34);
+    margin: 0;
+    height: 100px;
+    transform: translateY(-44px);
+    box-shadow: 0 0 14px black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.header{
+    margin-left: 60px;
+    transform: translateY(-30px);
+    font-size: 30px;
+    color: white;
+    font-family: fantasy;
+}
+.menu{
+    margin-left: 760px;
+    transform: translateY(-100px);
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.menu a:hover{
+    color: rgb(36, 34, 34);
+    background-color: white;
+    transition: ease 0.3s;
+    border-radius: 7px;
+}
+
+.slider {
+    width: 1241px; 
+    height: 700px;    
+    margin: 40px auto;
+    overflow: hidden;
+    
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    position: relative;
+    transform: translateY(-50px);
+    
+
+}
+
+
+.slides {
+    display: flex;
+    width: 300%; 
+    height: 100%;
+    animation: cambio 8s infinite; 
+}
+
+
+
+.slides img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@keyframes cambio {
+    10%   { margin-left: 0; }
+    30%  { margin-left: 0; }
+
+    30%  { margin-left: -100%; }
+    50%  { margin-left: -100%; }
+
+    70%  { margin-left: -200%; }
+    90% { margin-left: -200%; }
+}
+
+.boton1{
+    background: black;
+    text-decoration: none;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 13px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    font-family: fantasy;
+    transition: ease 0.4s;
+}
+.boton1:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+.tex{
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white; 
+  background-color: rgba(97, 96, 96, 0.3); 
+  padding: 10px;
+  text-align: center; 
+  z-index: 1; 
+
+}
+.vi-pa{
+    text-align: center;
+    background-color: rgba(221, 220, 220, 0.5);
+    box-shadow: 0 4px 14px black;
+    width: 80%;
+    margin-left: 120px;
+    border-radius: 15px;
+    height: 125vh;
+}
+iframe{
+    padding: 50px;
+}
+.parrafo{
+    width: 70%;
+    align-items: center;
+    margin: 20px;
+    margin-left: 150px;
+    font-size: 25px;
+    font-family:fantasy ;
+    
+}
+.piediv{
+        background-color: rgb(46, 46, 46);
+    box-shadow: 24px black;
+    text-align: center;
+}
+.piediv a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.piediv a:hover{
+    background-color: white;
+    border-radius: 11px;
+    color: black;
+    transition: ease 0.4s;
+}
+.pie{
+
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

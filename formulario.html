@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <h1>Formulario de Registro de clientes</h1>
+    <form action="" method="post">
+    
+        <label for="nombre">Nombre:</label>
+            <input 
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="ingresa un nombre"
+                required 
+                minlength="5" 
+                maxlength="15"
+            >
+            <br><br>
+        <label for="apellido">Apellido</label>
+            <input 
+                 type="text" 
+                 placeholder="Apellido"
+                 id="apellido"
+                 name="apellido"
+                 placeholder="ingresa un apellido"
+                 required 
+                 minlength="5" 
+                 maxlength="15"
+            >       
+            <br><br>
+        <label for="correo">Correo electronico</label>
+            <input 
+                type="email" 
+                placeholder="correo electronico"
+                id="correo"
+                name="correo"
+                required 
+                minlength="5" 
+                maxlength="15"
+            >
+        <br><br>
+        <label for="Contraseña">Contraseña</label>
+            <input 
+                type="password" 
+                placeholder="Contraseña"
+                id="Contraseña"
+                name="Contraseña"
+                required 
+                minlength="5" 
+                maxlength="15"
+                >
+        <br><br>
+
+        <fieldset>
+            <legend>Genero</legend>
+              <label for="Masculino">Masculino</label>
+              <input type="radio" id="Masculino " name="Genero" required  value="Masculino">
+              <label for="Femenino">Femenino</label>
+              <input type="radio" id="Femenino" name="Genero" required value="Femenino">
+
+        </fieldset>
+
+        <label for="Fecha">Fecha de nacimiento</label>
+            <input 
+                type="date" 
+                id="Fecha" 
+                name="Fecha" 
+                required
+            >
+        <br><br>
+        <label for="Telefono">Telefono:</label>
+            <input 
+                type="" 
+                placeholder="Telefono"
+                id="Telefono"
+                name="Telefono"
+                required 
+                minlength="5" 
+                maxlength="15"
+                >
+        <br><br>
+        <label for="">Dirección:</label>
+        <input type="" name="" id="" required>
+
+        <h2>Selecciona un regimen</h2>
+            <label for="Regimen">Regimen: </label>
+                <select name="" id="Regimen" required>
+                    <option value="General">General</option>
+                    <option value="Simplificado">Simplificado</option>
+                    <option value="Exento">Exento</option>
+                </select>
+        
+
+
+        <fieldset>
+                <legend>Intereses</legend>
+                <label for="Tecnologia">Tecnologia</label>
+                <input type="checkbox" id="Tecnologia " name="Intereses" value="Tecnologia" required>
+                <label for="Viaje">Viajes</label>
+                <input type="checkbox" id="Viajes" name="Intereses" value="Viaje" required>
+                <label for="Deporte">Deporte</label>
+                <input type="checkbox" id="Deporte" name="Intereses" value="Deporte" required>
+            <br><br>
+        </fieldset>
+
+        <label for="">Comentarios:</label>
+          <br>
+            <textarea name="" id="" required></textarea>
+            <br><br>
+            <input type="submit" >
+            <input type="submit" placeholder="Limpiar" required>
+    </form>
+
+</body>
+
+</html>

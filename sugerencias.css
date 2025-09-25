@@ -1,0 +1,110 @@
+body{
+    background-image: url(fondo5.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman';
+    margin: 0;
+}
+.barnav{
+    background-color: rgb(36, 34, 34);
+    margin: 0;
+    height: 100px;
+    transform: translateY(-4px);
+    box-shadow: 0 0 14px black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.header{
+    margin-left: 60px;
+    transform: translateY(-30px);
+    font-size: 30px;
+    color: white;
+    font-family: fantasy;
+}
+.menu{
+    margin-left: 760px;
+    transform: translateY(-100px);
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.menu a:hover{
+    color: rgb(36, 34, 34);
+    background-color: white;
+    transition: ease 0.3s;
+    border-radius: 7px;
+}
+.tit{
+    background-color: white;
+    text-align: center;
+    transform: translateY(-70px);
+    height: 40px;
+     box-shadow: 
+     3px 3px 24px black;
+}
+.piediv{
+        background-color: rgb(46, 46, 46);
+    box-shadow: 24px black;
+    text-align: center;
+    transform: translateY(100px);
+}
+.piediv a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.piediv a:hover{
+    background-color: white;
+    border-radius: 11px;
+    color: black;
+    transition: ease 0.4s;
+}
+.pie{
+
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.formulario{
+    background-color: rgba(252, 252, 252, 0.5);
+    top: 60px;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    transform: translateY(40px);
+    margin-left: 380px;
+    border-radius: 13px;
+}
+.input1{
+    width: 250px;
+    height: 20px;
+    margin: 20px;
+    border-radius: 7px;
+}
+.input2{
+    width: 250px;
+    height: 20px;
+    margin: 20px;
+    border-radius: 7px;
+}
+.boton{
+        width: 120px;
+    height: 40px;
+}
+textarea{
+    width: 300px;
+    height: 20px;
+    margin: 20px;
+    border-radius: 7px;
+}
+.mensaje{
+    flex-direction: column-reverse;
+}
